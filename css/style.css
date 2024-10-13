@@ -1,0 +1,121 @@
+*{
+   padding: 1px
+}
+body {
+   background-color: rgb(227, 218, 218);
+   font: 14px time;
+}
+p {
+   color: #000;
+   padding-left: 5px;
+   text-indent: 15px
+}
+h1,
+h3 {
+   font: 20px;
+   text-transform: uppercase;
+   color: rgb(0, 0, 255);
+}
+div {
+   background-color: rgb(14, 5, 57);
+   color: #f5f5f5;
+   border: thick solid;
+   border-style: dashed;
+   padding: 50px;
+   width: 50%;
+   font-weight: bold;
+   text-transform: uppercase;
+   font-size:xx-large;
+   
+
+}
+
+.important{
+font-weight: bold;
+background-color: yellow;
+color: red;
+}
+.green{
+   color:green;
+   font-weight: bolder;
+   text-transform: uppercase;
+}
+.blue{
+   color: blue;
+   font-weight: bolder;
+   text-transform: uppercase;
+}
+.red{
+   color: red;
+   font-weight: bolder;
+   text-transform: uppercase;
+}
+a:link{
+   text-decoration: none;
+   text-transform: uppercase;
+   color:blue;
+}
+a:visited {
+   color: deeppink;
+}
+a:focus,
+a:hover{
+   text-decoration: underline;
+   color: red;
+}
+a:active{
+   color:greenyellow
+}
+p:first-letter{
+   font-family: serlf;
+   font-size: 500%;
+   float: unset;
+   color: rgb
+}
+intro{
+   font-size: italic;
+}
+body > .important{
+   font-size: 20px;
+   background-color: blue;
+   font-weight: bold;
+}
+input{
+   background-color: #f5f5f5;
+}
+input[name]{
+   border: 2px dashed #996600;
+}
+image{
+   max-width: 200px;
+   max-height: 200px;
+}
+table {
+   border-color: red;
+}
+tr {
+   background-color: pink;
+   border-spacing: 15px;
+}
+tbody {
+   border: 6px blue;
+   box-decoration-break:slice;
+}
+h2{
+   font-style:oblique;
+   font-weight: bold;
+   font-family: serif;
+}
+#green {
+   boder: 4px #000;
+   position: absolute;  
+}
+ body{
+   background-image:url(css-picks.jpg);
+   background-repeat:repeat;
+   background-position: center;
+   background-attachment: fixed;
+   image-rendering: auto;
+   image-orientation: flip;
+}
+
